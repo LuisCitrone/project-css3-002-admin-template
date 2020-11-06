@@ -5,5 +5,18 @@
 }
 .header__title{
     display: inline;
-    
+    font-size: 1,25rem;
 }
+.header__search{
+    display: inline;
+}
+.search__input{
+    position: relative;
+    left: 1250px;
+    top: -1px;
+}
+.search__btn{
+    position: relative;
+    left: 1250px;
+    top: -1px;
+} 
