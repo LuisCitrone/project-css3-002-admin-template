@@ -14,7 +14,7 @@ body {
 .header--dark {
     background-color: rgb(51, 57, 67);
     color           : rgb(236, 236, 236);
-    width           : 63%;
+    width           : 100%;
     height          : 50px;
 }
 
@@ -37,6 +37,7 @@ body {
 
 .header__search {
     display: inline;
+
 }
 
 .search__input {
@@ -165,7 +166,7 @@ body {
     background-color: rgb(233, 236, 239);
     border-radius   : 0, 25rem;
     padding         : 1rem 1,5rem;
-    width           : 800px;
+    width           : 1403px;
     height          : 40px;
     bottom          : 10px;
 }
@@ -173,7 +174,7 @@ body {
 .main__breadcrumb>h4 {
     display       : inline-flex;
     position      : relative;
-    bottom        : 6px;
+    bottom        : 4px;
     right         : -20px;
     font-size     : 0.75rem;
     color         : rgb(128, 128, 128);
@@ -194,16 +195,16 @@ body {
 .main__card hr {
     margin      : 0;
     border-style: solid;
-    border-width: 0.1px;
-    color       : rgb(169, 169, 169);
+    border-width: 0,1px;
+    color       : rgb(211, 211, 211);
 }
 
 .card__top {
     border-radius: 0.25rem 0.25rem 0 0;
     transition   : background-color 0.3s;
 
-    padding  : 20px 80px 20px 20px;
-    font-size: 0.8rem;
+    padding  : 20px 80px 35px 20px;
+    font-size: 1.8rem;
 }
 
 .card__top:hover {
@@ -214,8 +215,8 @@ body {
     border-radius: 0 0 0.25rem 0.25rem;
     transition   : background-color 0.3s;
 
-    padding  : 10px 110px 10px 20px;
-    font-size: 0.6rem;
+    padding  : 20px 250px 30px 20px;
+    font-size: 0.73rem;
 }
 
 .card__bottom:hover {
@@ -253,6 +254,6 @@ body {
 
 .card__bottom--arrow {
     position   : relative;
-    left       : 90px;
-    font-weight: 900;
+    left       : 210px;
+    font-weight: 1200;
 }
